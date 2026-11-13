@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\framescope_ci_probe\app.py", line 9, in <module>
+    build({"total": 10, "count": 0})
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\framescope_ci_probe\app.py", line 6, in build
+    return rate(stats["total"], stats["count"])
+  File "C:\Users\Administrator\framescope_ci_probe\app.py", line 2, in rate
+    return total / count
+           ~~~~~~^~~~~~~
+ZeroDivisionError: division by zero

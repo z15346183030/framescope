@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\repos\framescope\examples\demo\src\app.py", line 19, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Administrator\repos\framescope\examples\demo\src\app.py", line 15, in main
+    return load("stats.json")
+  File "C:\Users\Administrator\repos\framescope\examples\demo\src\app.py", line 9, in load
+    with open(path, encoding="utf-8") as handle:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'stats.json'
